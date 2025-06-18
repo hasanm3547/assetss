@@ -1,6 +1,19 @@
-tokenlist.json
-blockchains/
-  smartchain/
-    assets/
-      0xe021A7E4ae5fF484e4d1C90c89fCe6F6A21e4a68/
-        logo.png
+{
+  "name": "Fake Tether Token List",
+  "timestamp": "2025-06-18T00:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 97,
+      "address": "0xe021A7E4ae5fF484e4d1C90c89fCe6F6A21e4a68",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/assets/master/blockchains/smartchain/assets/0xe021A7E4ae5fF484e4d1C90c89fCe6F6A21e4a68/logo.png"
+    }
+  ]
+}
